@@ -1,0 +1,25 @@
+service: serverless-typescript-puppeteer
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+  stage: dev
+  region: ap-northeast-1
+
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline
+
+functions:
+  demoAPI:
+    handler: src/index.handler
+    events:
+      - http:
+          path: demo
+          method: get
+          cors: true
+    timeout: 10
+    memorySize: 2048
