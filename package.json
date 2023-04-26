@@ -6,6 +6,7 @@
   "author": "d-sekine <d16sekine@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "deploy": "serverless deploy",
     "local": "serverless offline",
     "dev": "serverless invoke local -f demoAPI"
   },

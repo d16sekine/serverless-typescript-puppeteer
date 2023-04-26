@@ -18,6 +18,24 @@ npm install -g serverless
 
 ## :technologist:Usage
 
+### how to deploy this template
+
+```
+git clone https://github.com/d16sekine/serverless-typescript-puppeteer
+cd serverless-typescript-puppeteer
+yarn install
+```
+
+```
+yarn deploy
+```
+
+### how to create your project by this template
+
+```
+serverless create --template-url https://github.com/d16sekine/serverless-typescript-puppeteer -n "your service name"
+```
+
 
 ## :bulb:License
 This project is licensed under the terms of the MIT license.
