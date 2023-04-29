@@ -5,8 +5,7 @@ This is a [Serverless Framework](https://www.serverless.com/) template in TypeSc
 # :rocket:Feature
 - easy to deploy
 - include [eslint](https://eslint.org/) and [Jest](https://jestjs.io/)
-- include test code
-
+- include demo API and test code
 ## :gear:Requirements
 
 - Node.js v18 or later
@@ -15,6 +14,9 @@ This is a [Serverless Framework](https://www.serverless.com/) template in TypeSc
 ```
 npm install -g serverless
 ```
+
+## :rainbow:Use Cases
+- web scraping
 
 ## :technologist:Usage
 
